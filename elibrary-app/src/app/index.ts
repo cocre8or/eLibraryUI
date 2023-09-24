@@ -1,0 +1,1 @@
+export {ViewBooksComponent} from './book/view-books/view-books.component';

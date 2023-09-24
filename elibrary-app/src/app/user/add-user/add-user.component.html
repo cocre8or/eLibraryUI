@@ -1,0 +1,28 @@
+<h3>Create User</h3>
+
+<div id="createAccount">
+<form [formGroup]="addUserForm" (ngSubmit)="onSubmit()">
+
+  <div>
+    <label for="username">
+      Username
+    </label>
+    <input id="username" type="text" formControlName="username">
+  </div>
+  <div>
+    <label for="password">
+        Password
+    </label>
+    <input id="password" type="text" formControlName="password">
+  </div>
+  <div>
+    <label for="email_address">
+        Email address
+    </label>
+    <input id="email_address" type="text" formControlName="email_address">
+  </div>
+
+  <button class="button" type="submit">Create Account</button>
+
+</form>
+</div>

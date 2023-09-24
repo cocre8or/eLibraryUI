@@ -1,0 +1,4 @@
+{
+    "baseApiUrl": "http://localhost:5000/",
+    "env": "local"
+}

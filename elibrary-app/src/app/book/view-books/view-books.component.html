@@ -1,0 +1,19 @@
+<p>Inventory of eBooks</p>
+<table>
+    <tr>
+        <th>Author</th>
+        <th>Title</th>
+        <th>Pages</th>
+        <th>Year</th>
+        <th>Last CheckedOut Date</th>
+        <th>Checked Out?</th>
+      </tr>
+    <tr *ngFor="let book of ebooks">
+      <td>{{ book.author }}</td>
+      <td>{{ book.title }}</td>
+      <td>{{ book.pages }}</td>
+      <td>{{ book.year }}</td>
+      <td>{{ book.lastCheckedOutDate }}</td>
+      <td>{{ book.checkedOut }}</td>
+    </tr>
+  </table>
